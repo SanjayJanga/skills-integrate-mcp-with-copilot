@@ -24,6 +24,49 @@ header {
   border-radius: 5px;
 }
 
+.page-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+.auth-link {
+  margin-top: 10px;
+}
+
+.auth-link a {
+  color: #ffffff;
+  text-decoration: underline;
+}
+
+.login-page {
+  display: flex;
+  min-height: 100vh;
+  align-items: center;
+  justify-content: center;
+  background-color: #eef2ff;
+}
+
+.login-box {
+  width: 100%;
+  max-width: 420px;
+  background-color: white;
+  border-radius: 10px;
+  padding: 30px;
+  box-shadow: 0 12px 32px rgba(0, 0, 0, 0.08);
+}
+
+.login-box h1 {
+  margin-bottom: 20px;
+  color: #1a237e;
+}
+
+.login-form button {
+  width: 100%;
+}
+
 header h1 {
   margin-bottom: 10px;
 }
